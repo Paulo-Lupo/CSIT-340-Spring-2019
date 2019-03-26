@@ -10,7 +10,7 @@
 from socket import *
 
 # starts the connection with the server
-serverHost = '192.168.56.101'
+serverHost = 'localhost'
 serverPort = 5000
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 
